@@ -7,7 +7,6 @@ from src.rectangle import Rectangle
 class Square(Rectangle):
     """Класс геометрической фигуры Квадрат"""
     def __init__(self, side):
-        self.side_a = side
-        self.side_b = side
+        super().__init__(side_a=side, side_b=side)
 
     name = 'SQUARE'

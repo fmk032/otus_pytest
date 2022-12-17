@@ -5,8 +5,6 @@
 
 class Figure:
     """Класс геометрической фигуры"""
-    def __init__(self):
-        self.area = None
 
     def add_area(self, figure):
         """Принимает figure (экземпляр класса какой-либо фигуры - класса Figure или наследника),

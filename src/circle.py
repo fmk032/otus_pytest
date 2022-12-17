@@ -8,7 +8,6 @@ from src.figure import Figure
 class Circle(Figure):
     """Класс геометрической фигуры Круг"""
     def __init__(self, radius):
-        #super().__init__()
         self.radius = radius
 
     name = 'CIRCLE'
